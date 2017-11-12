@@ -15,5 +15,9 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
    output: {
      filename: '[name].bundle.js',
      path: path.resolve(__dirname, 'dist')
-   }
+   },
+   resolve: {
+    // you can now require('file') instead of require('file.coffee')
+    extensions: ['', '.js', '.json', '.css', '.csv', '.xml']
+  }
  };
