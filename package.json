@@ -1,5 +1,5 @@
 {
-  "name": "mern-starter",
+  "name": "webpack-starter-production-development",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -10,8 +10,9 @@
     "webpack"
   ],
   "author": "'navinprasadk' <'navinprasad0808@gmail.com'>",
+  "repository":"https://github.com/navinprasadk/webpack-starter-production-development",
   "license": "ISC",
-  "description": "",
+  "description": "This boilerplate contains webpack, the webpack configuration is specially designed for both development environment and production environment",
   "devDependencies": {
     "clean-webpack-plugin": "^0.1.17",
     "css-loader": "^0.28.7",
